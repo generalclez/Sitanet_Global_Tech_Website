@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid,
+.container_ {
+  overflow-x: hidden;
+}
+
+.touch {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.navbar,
+.row1 {
+  background-color: #3498db;
+  opacity: 80%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: #ff5733;
+}
+
+.contact {
+  border-radius: 10px;
+  background-color: #ff5733;
+}
+.contact:hover {
+  background-color: #001420;
+}
+/* WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 26px;
+  right: -12rem;
+}
+.carousel_h1,
+.h1 {
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.carousel_h4 {
+  margin-bottom: 10rem;
+}
+
+.carousel_h4,
+.dev,
+.h4 {
+  color: #ff5733;
+}
+
+.we_do {
+  /* background-color: white; */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px #3498db;
+  background-image: url("../assets/images/programming-skills.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.we_do:hover {
+  background-color: #66b9f0;
+}
+.serv,
+.value_p,
+.about_2,
+.about_4,
+.about_align,
+.web_dev {
+  text-align: justify;
+}
+
+.industry {
+  background-image: url("../assets/images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ceo,
+.design {
+  background-image: url("../assets/images/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.value {
+  font-size: 30px;
+}
+
+.touch {
+  background-color: #f3f9ff;
+}
+.address,
+.email,
+.call,
+.hour {
+  color: #3498db;
+}
+
+ul {
+  list-style: none;
+}
+li,
+.li {
+  color: #c4c4c4;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+}
+.footer1 {
+  color: #fa8807;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-in {
+  animation: fadeIn 4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-text {
+  opacity: 0;
+}
+
+.fade-in-text {
+  animation: fadeIn 3s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.on-hover:hover .dropdown-menu {
+  display: block;
+  background: linear-gradient(45deg, #9ed0f3, #f8f9fa);
+}
+
+/* ABOUT PAGE */
+
+.about_ {
+  background-image: url("../assets/images/1666110128img_24.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom 25rem !important;
+  padding-bottom: 7rem;
+}
+.about_1 {
+  margin-top: 11rem;
+  margin-bottom: 10rem;
+}
+
+.about_2 {
+  border-radius: 10px;
+  box-shadow: 0 3px 12px #3498db;
+  background: linear-gradient(45deg, #3498db, #afd3f5);
+}
+
+.about_4 {
+  margin-top: 10rem;
+}
+
+.core_value {
+  background-image: url("../assets/images/1666110128img_24.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 14rem 0;
+  margin-top: -1.2rem;
+}
+
+.team_row {
+  margin-top: 5rem;
+}
+.team,
+.best,
+.stack,
+.what_we_do,
+.industries,
+.modal-title,
+.project,
+.about_h4 {
+  color: #055183;
+}
+
+.team1 {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+/* Tech Stack */
+hr {
+  width: 9%;
+  margin: auto;
+  border: #ff5733 3px solid;
+}
+
+.image-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.image-wrapper {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Web Development Section */
+.web_dev {
+  margin-top: 3rem;
+}
+
+.web_row {
+  background-image: url("../assets/images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.web {
+  margin-top: 16rem;
+  margin-bottom: 12rem;
+  color: white;
+}
+
+.we_design {
+  color: #ff5733;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.design {
+  padding-bottom: 13rem;
+}
+.design_1 {
+  /* color: white; */
+  padding: 15px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px #001420;
+  background: linear-gradient(45deg, #a0d1f5, #f8f9fa);
+}
+
+.design_1:hover {
+  padding: 15px;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px #ff5733;
+  background: linear-gradient(45deg, #f8f9fa, #3498db);
+}
+
+/* TRAINING */
+.training {
+  background-image: url("../assets/images/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center bottom 7rem !important; */
+  /* padding-bottom: 4rem; */
+}
+
+/* Portolio */
+.modal-dialog {
+  max-width: 50%;
+}
+.img_portfolio {
+  cursor: pointer;
+}
